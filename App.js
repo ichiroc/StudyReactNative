@@ -5,11 +5,12 @@ import ButtonBasics from './src/ButtonBasics'
 import Touchables from './src/Touchables'
 import Scrollable from './src/Scrollable'
 import FlatListBasics from './src/FlatListBasics'
+import SectionListBasics from './src/SectionListBasics'
 
 export default class App extends React.Component {
   render() {
     return (
-      <FlatListBasics />
+      <SectionListBasics />
     );
   }
 }
