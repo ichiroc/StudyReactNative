@@ -4,11 +4,12 @@ import PizzaTranslator from './src/PizzaTranslator'
 import ButtonBasics from './src/ButtonBasics'
 import Touchables from './src/Touchables'
 import Scrollable from './src/Scrollable'
+import FlatListBasics from './src/FlatListBasics'
 
 export default class App extends React.Component {
   render() {
     return (
-      <Scrollable />
+      <FlatListBasics />
     );
   }
 }
