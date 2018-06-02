@@ -6,11 +6,12 @@ import Touchables from './src/Touchables'
 import Scrollable from './src/Scrollable'
 import FlatListBasics from './src/FlatListBasics'
 import SectionListBasics from './src/SectionListBasics'
+import FetchExample from './src/FetchExample'
 
 export default class App extends React.Component {
   render() {
     return (
-      <SectionListBasics />
+      <FetchExample />
     );
   }
 }
