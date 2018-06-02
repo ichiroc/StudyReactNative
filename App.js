@@ -7,11 +7,12 @@ import Scrollable from './src/Scrollable'
 import FlatListBasics from './src/FlatListBasics'
 import SectionListBasics from './src/SectionListBasics'
 import FetchExample from './src/FetchExample'
+import TabNav from './src/TabNav'
 
 export default class App extends React.Component {
   render() {
     return (
-      <FetchExample />
+      <TabNav />
     );
   }
 }
