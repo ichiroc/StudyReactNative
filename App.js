@@ -3,15 +3,12 @@ import { StyleSheet, Text, View } from 'react-native';
 import PizzaTranslator from './src/PizzaTranslator'
 import ButtonBasics from './src/ButtonBasics'
 import Touchables from './src/Touchables'
+import Scrollable from './src/Scrollable'
 
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <PizzaTranslator text='hoge' />
-        <ButtonBasics />
-        <Touchables />
-      </View>
+      <Scrollable />
     );
   }
 }
