@@ -15,7 +15,7 @@ export default class PizzaTranslator extends Component {
 
   render() {
     return (
-      <View style={{padding: 10}}>
+      <View style={{padding: 10, backgroundColor: 'red'}}>
         <TextInput
           value={this.state.text}
           style={{height: 40}}
